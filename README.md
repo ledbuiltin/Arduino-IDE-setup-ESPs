@@ -23,6 +23,7 @@ Si abrimos Git bash desde git GUI ya va por defecto a esa carpeta
 Es decir cd C:/Users/david_barriuso/Documents/Arduino/hardware/espressif/esp32
 Ejecutamos (es decir pegar + enter)  git submodule update --init --recursive
 Vamos a la carpeta C:/Users/david_barriuso/Documents/Arduino/hardware/espressif/esp32/tools y ejecutamos get.exe esto crea unas carpetillas es instala el compilador para el ESP32 (mientas aparece una ventana de comando diciendo que descarga algo, estrae, descarga, instala y se cierra sola)
+Reiniciamos arduino y ya aparecen en el board manager unas cuantas ESP32
 Parece que hay que tener descargado Python tambien... https://www.python.org/downloads/ yo he metido la 3.7
 Hace falta Python porque los programillas que se instalan al ejegutar get.exe corren en Python
 
